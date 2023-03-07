@@ -1,9 +1,9 @@
-﻿ExampleIG : Validation Results
+﻿Translatable : Validation Results
 =========================================
 
 err = 2, warn = 10, info = 4
 IG Publisher Version: 1.2.40
-Generated Tue Mar 07 19:58:23 UTC 2023. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Tue Mar 07 20:07:17 UTC 2023. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 0 / 6 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 0 / 0 / 1
