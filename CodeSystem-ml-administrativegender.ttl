@@ -5,32 +5,44 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://xxsomewhere.org/fhir/myig/CodeSystem/ml-administrativegender> a fhir:CodeSystem ;
+<http://example.com/fhir/example/CodeSystem/ml-administrativegender> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ml-administrativegender"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/example/CodeSystem/ml-administrativegender</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a><a name=\"ml-administrativegender-male\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a><a name=\"ml-administrativegender-female\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other\">other</a><a name=\"ml-administrativegender-other\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a><a name=\"ml-administrativegender-unknown\"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>e</b></td><td><b>ee</b></td><td><b>Spanish (es)</b></td><td><b>Portuguese (pt)</b></td></tr><tr><td>male</td><td></td><td>Mees</td><td>Masculino</td><td>Masculino</td></tr><tr><td>female</td><td></td><td>Naine</td><td>Feminino</td><td>Feminino</td></tr><tr><td>other</td><td></td><td>Muu</td><td>Otro</td><td>Outro</td></tr><tr><td>unknown</td><td>Desconocido</td><td>Teadmata</td><td></td><td>Desconhecido</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/example/CodeSystem/ml-administrativegender</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a><a name=\"ml-administrativegender-male\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a><a name=\"ml-administrativegender-female\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other\">other</a><a name=\"ml-administrativegender-other\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a><a name=\"ml-administrativegender-unknown\"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>ee</b></td><td><b>Spanish (es)</b></td><td><b>Portuguese (pt)</b></td></tr><tr><td>male</td><td>Mees</td><td>Masculino</td><td>Masculino</td></tr><tr><td>female</td><td>Naine</td><td>Feminino</td><td>Feminino</td></tr><tr><td>other</td><td>Muu</td><td>Otro</td><td>Outro</td></tr><tr><td>unknown</td><td>Teadmata</td><td>Desconocido</td><td>Desconhecido</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://example.com/fhir/example/CodeSystem/ml-administrativegender"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0-test"] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "MLAdministrativeGender"] ; # 
   fhir:title [ fhir:v "Multilingual Administrative Gender"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-07T19:45:22+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "xxxYour Work Group"] ; # 
+  fhir:date [ fhir:v "2023-03-07T19:58:04+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "My Organization"] ; # 
   fhir:contact ( [
+     fhir:name [ fhir:v "My Organization" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://xxhl7.org/Special/committees/[something]" ]
+       fhir:value [ fhir:v "http://example.com/committees" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "my-group@example.com" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Bob Smith" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "bobsmith@example.com" ] ;
+       fhir:use [ fhir:v "work" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Multilingual Administrative Gender"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "001" ]
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
@@ -80,7 +92,7 @@
        fhir:language [ fhir:v "pt" ] ;
        fhir:value [ fhir:v "Desconhecido" ]
      ] [
-       fhir:language [ fhir:v "e" ] ;
+       fhir:language [ fhir:v "es" ] ;
        fhir:value [ fhir:v "Desconocido" ]
      ] [
        fhir:language [ fhir:v "ee" ] ;

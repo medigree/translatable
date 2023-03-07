@@ -1,32 +1,45 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "xxexample.fhir.uv.myig",
+  "id" : "my-ig",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example/ImplementationGuide/my-ig</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>\n</div></div>"
   },
-  "url" : "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-  "version" : "0.1.0-test",
-  "name" : "XXYourComputableMyIGNameHere",
-  "title" : "xxYour User Friendly Name for MyIG Here",
-  "status" : "draft",
-  "experimental" : false,
-  "date" : "2023-03-07T19:45:22+00:00",
-  "publisher" : "xxxYour Work Group",
+  "url" : "http://example.com/fhir/example/ImplementationGuide/my-ig",
+  "version" : "1.0.0",
+  "name" : "ExampleIG",
+  "title" : "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1",
+  "status" : "active",
+  "date" : "2020-02-26",
+  "publisher" : "My Organization",
   "contact" : [{
+    "name" : "My Organization",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://xxhl7.org/Special/committees/[something]"
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
     }]
   }],
-  "description" : "xxxA brief description of what this IG is about ",
+  "description" : "Example IG exercises many of the fields in a SUSHI configuration.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "001"
+      "code" : "001",
+      "display" : "World"
     }]
   }],
-  "packageId" : "xxexample.fhir.uv.myig",
+  "packageId" : "my-ig",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -47,7 +60,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2019+"
+        "valueString" : "2021+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -58,29 +71,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "CI Build"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input\\cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-liquid"
-      },
-      {
-        "url" : "value",
-        "valueString" : "templates\\liquid"
+        "valueString" : "STU1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -168,7 +159,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://xxsomewhere.org/fhir/myig/history.html"
+        "valueString" : "http://example.com/fhir/example/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -333,7 +324,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2019+"
+        "valueString" : "2021+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -344,29 +335,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "CI Build"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input\\cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-liquid"
-      },
-      {
-        "url" : "value",
-        "valueString" : "templates\\liquid"
+        "valueString" : "STU1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -454,7 +423,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://xxsomewhere.org/fhir/myig/history.html"
+        "valueString" : "http://example.com/fhir/example/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -615,22 +584,14 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ml-administrativegender"
-      },
-      "name" : "Multilingual Administrative Gender",
-      "description" : "Multilingual Administrative Gender"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/PTPatient"
-      }
+        "reference" : "StructureDefinition/EUPatient"
+      },
+      "name" : "EU Patient",
+      "description" : "EU Patient",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -641,7 +602,42 @@
         "reference" : "ValueSet/ml-administrativegendervs"
       },
       "name" : "Multilingual Administrative Gender",
-      "description" : "Multilingual Administrative Gender"
+      "description" : "Multilingual Administrative Gender",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ml-administrativegender"
+      },
+      "name" : "Multilingual Administrative Gender",
+      "description" : "Multilingual Administrative Gender",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/EEPatient"
+      },
+      "name" : "EEPatient",
+      "exampleCanonical" : "http://example.com/fhir/example/StructureDefinition/EUPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/PTPatient"
+      },
+      "name" : "PTPatient",
+      "exampleCanonical" : "http://example.com/fhir/example/StructureDefinition/EUPatient"
     }],
     "page" : {
       "extension" : [{
@@ -657,7 +653,7 @@
           "valueUrl" : "index.html"
         }],
         "nameUrl" : "index.html",
-        "title" : "MyIG Home Page",
+        "title" : "Home",
         "generation" : "html"
       },
       {
@@ -666,19 +662,11 @@
           "valueUrl" : "changes.html"
         }],
         "nameUrl" : "changes.html",
-        "title" : "IG Change History",
+        "title" : "Changes",
         "generation" : "html"
       }]
     },
     "parameter" : [{
-      "code" : "path-resource",
-      "value" : "input\\history"
-    },
-    {
-      "code" : "path-resource",
-      "value" : "input\\scenarios"
-    },
-    {
       "code" : "path-resource",
       "value" : "input/capabilities"
     },
@@ -709,6 +697,10 @@
     {
       "code" : "path-resource",
       "value" : "input/vocabulary"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/maps"
     },
     {
       "code" : "path-resource",

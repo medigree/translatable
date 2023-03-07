@@ -3,20 +3,33 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="ml-administrativegender"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://example.com/fhir/example/CodeSystem/ml-administrativegender</code></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a><a name="ml-administrativegender-male"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a><a name="ml-administrativegender-female"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a><a name="ml-administrativegender-other"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a><a name="ml-administrativegender-unknown"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>e</b></td><td><b>ee</b></td><td><b>Spanish (es)</b></td><td><b>Portuguese (pt)</b></td></tr><tr><td>male</td><td></td><td>Mees</td><td>Masculino</td><td>Masculino</td></tr><tr><td>female</td><td></td><td>Naine</td><td>Feminino</td><td>Feminino</td></tr><tr><td>other</td><td></td><td>Muu</td><td>Otro</td><td>Outro</td></tr><tr><td>unknown</td><td>Desconocido</td><td>Teadmata</td><td></td><td>Desconhecido</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://example.com/fhir/example/CodeSystem/ml-administrativegender</code></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a><a name="ml-administrativegender-male"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a><a name="ml-administrativegender-female"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a><a name="ml-administrativegender-other"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a><a name="ml-administrativegender-unknown"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>ee</b></td><td><b>Spanish (es)</b></td><td><b>Portuguese (pt)</b></td></tr><tr><td>male</td><td>Mees</td><td>Masculino</td><td>Masculino</td></tr><tr><td>female</td><td>Naine</td><td>Feminino</td><td>Feminino</td></tr><tr><td>other</td><td>Muu</td><td>Otro</td><td>Outro</td></tr><tr><td>unknown</td><td>Teadmata</td><td>Desconocido</td><td>Desconhecido</td></tr></table></div>
   </text>
   <url value="http://example.com/fhir/example/CodeSystem/ml-administrativegender"/>
-  <version value="0.1.0-test"/>
+  <version value="1.0.0"/>
   <name value="MLAdministrativeGender"/>
   <title value="Multilingual Administrative Gender"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2023-03-07T19:45:22+00:00"/>
-  <publisher value="xxxYour Work Group"/>
+  <date value="2023-03-07T19:58:04+00:00"/>
+  <publisher value="My Organization"/>
   <contact>
+    <name value="My Organization"/>
     <telecom>
       <system value="url"/>
-      <value value="http://xxhl7.org/Special/committees/[something]"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="Multilingual Administrative Gender"/>
@@ -24,6 +37,7 @@
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
+      <display value="World"/>
     </coding>
   </jurisdiction>
   <content value="supplement"/>
@@ -80,7 +94,7 @@
       <value value="Desconhecido"/>
     </designation>
     <designation>
-      <language value="e"/>
+      <language value="es"/>
       <value value="Desconocido"/>
     </designation>
     <designation>

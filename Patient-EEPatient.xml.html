@@ -1,5 +1,3 @@
-<!-- get modelType -->
-
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -7,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>XXEXAMPLE.FHIR.UV.MYIG\ - FHIR v4.0.1</title>
+    <title>MY-IG\EEPatient - XML Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -48,8 +46,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"3.4"}
+    h3,h4,h5,h6{--heading-prefix:"3.4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -76,9 +74,9 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">xxYour User Friendly Name for MyIG Here</span>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1</span>
             <br/>
-            <span style="display:inline-block;">0.1.0-test - CI Build
+            <span style="display:inline-block;">1.0.0 - STU1
 
 
 
@@ -147,7 +145,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>EEPatient</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -159,11 +157,8 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 6" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">xxYour User Friendly Name for MyIG Here, published by xxxYour Work Group. This is not an authorized publication; it is the continuous build for version 0.1.0-test). This version is based on the current content of <a href="https://github.com/medigree/translatable">https://github.com/medigree/translatable</a> and changes regularly. See the <a href="http://xxsomewhere.org/fhir/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  
-
-
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1, published by My Organization. This is not an authorized publication; it is the continuous build for version 1.0.0). This version is based on the current content of <a href="https://github.com/medigree/translatable">https://github.com/medigree/translatable</a> and changes regularly. See the <a href="http://example.com/fhir/example/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -176,63 +171,46 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="StructureDefinition-PTPatient.html">Content</a>
-  </li>
-
-
-
-  <li>
-    <a href="StructureDefinition-PTPatient-definitions.html">Detailed Descriptions</a>
+    <a href="Patient-EEPatient.html">Narrative Content</a>
   </li>
 
 
 
   
-    <li>
-      <a href="StructureDefinition-PTPatient-mappings.html">Mappings</a>
-    </li>
-  
-
-
-
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-PTPatient.profile.xml.html">XML</a>
+    <li class="active">
+      <a href="#">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-PTPatient.profile.json.html">JSON</a>
+      <a href="Patient-EEPatient.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-PTPatient.profile.ttl.html">TTL</a>
+      <a href="Patient-EEPatient.ttl.html">TTL</a>
     </li>
   
+
 
 
 </ul>
 
 
-  <a name="root"> </a>
-  <h2 id="root">Resource Profile: PTPatient - Examples</h2>
+<a name="root"> </a>
+
+
+<h2 id="root">: EEPatient - XML Representation</h2>
   <table class="colsi">
     <tr>
 
       <td colspan="2">
         
-          Active
           
-            as of 2023-03-07
           
         
       </td>
@@ -241,23 +219,35 @@
   </table>
 
 
-   <!-- insert intro if present -->
-    
+<p><a href="Patient-EEPatient.xml" no-download="true">Raw xml</a> | <a href="Patient-EEPatient.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
 
 
 
+  <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient">Patient</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;EEPatient&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://example.com/fhir/example/StructureDefinition/EUPatient&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p style=&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;&quot;&gt;&lt;b&gt;Anonymous Patient&lt;/b&gt; female, DoB Unknown&lt;/p&gt;&lt;hr/&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;female&quot;/&gt;
+&lt;/Patient&gt;</code></pre>
 
 
-  <p><b>No examples are currently available for the  Profile.</b></p>
-
-
-<!-- insert notes if present -->
-
+  <!-- insert notes if present -->
+  
 
 
 
 </div>
-
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -265,29 +255,6 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript">
-    try {
-      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
-    } catch(exception) {
-    }
-
-    if (!currentTabIndex)
-      currentTabIndex = '0';
-
-    $( '#tabs' ).tabs({
-      active: currentTabIndex,
-      activate: function( event, ui ) {
-        var active = $('.selector').tabs('option', 'active');
-        currentTabIndex = ui.newTab.index();
-        document.activeElement.blur();
-        try {
-          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
-        } catch(exception) {
-        }
-      }
-    });
-  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -303,13 +270,13 @@
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://xxhl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxexample.fhir.uv.myig#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 7, 2023 19:45+0000">2023-03-07</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="http://example.com/committees">My Organization</a>.  Package my-ig#1.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 7, 2023 19:58+0000">2023-03-07</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  
-                 <a style="color: #81BEF7" target="_blank" href="http://xxsomewhere.org/fhir/myig/history.html">Version History</a> |
+                 <a style="color: #81BEF7" target="_blank" href="http://example.com/fhir/example/history.html">Version History</a> |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
 

@@ -3,28 +3,28 @@
     "id" : "ml-administrativegender",
     "type" : "CodeSystem",
     "url" : "http://example.com/fhir/example/CodeSystem/ml-administrativegender",
-    "version" : "0.1.0-test",
+    "version" : "1.0.0",
     "name" : "MLAdministrativeGender"
   },
   {
-    "id" : "PTPatient",
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example/ImplementationGuide/my-ig",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "EUPatient",
     "type" : "StructureDefinition",
-    "url" : "http://example.com/fhir/example/StructureDefinition/PTPatient",
-    "version" : "0.1.0-test",
-    "name" : "PTPatient"
+    "url" : "http://example.com/fhir/example/StructureDefinition/EUPatient",
+    "version" : "1.0.0",
+    "name" : "EUPatient"
   },
   {
     "id" : "ml-administrativegendervs",
     "type" : "ValueSet",
     "url" : "http://example.com/fhir/example/ValueSet/ml-administrativegendervs",
-    "version" : "0.1.0-test",
+    "version" : "1.0.0",
     "name" : "MLAdministrativeGenderVS"
-  },
-  {
-    "id" : "xxexample.fhir.uv.myig",
-    "type" : "ImplementationGuide",
-    "url" : "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-    "version" : "0.1.0-test",
-    "name" : "XXYourComputableMyIGNameHere"
   }
 ]

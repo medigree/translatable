@@ -3,27 +3,41 @@
   "id" : "ml-administrativegender",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/example/CodeSystem/ml-administrativegender</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a><a name=\"ml-administrativegender-male\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a><a name=\"ml-administrativegender-female\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other\">other</a><a name=\"ml-administrativegender-other\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a><a name=\"ml-administrativegender-unknown\"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>e</b></td><td><b>ee</b></td><td><b>Spanish (es)</b></td><td><b>Portuguese (pt)</b></td></tr><tr><td>male</td><td></td><td>Mees</td><td>Masculino</td><td>Masculino</td></tr><tr><td>female</td><td></td><td>Naine</td><td>Feminino</td><td>Feminino</td></tr><tr><td>other</td><td></td><td>Muu</td><td>Otro</td><td>Outro</td></tr><tr><td>unknown</td><td>Desconocido</td><td>Teadmata</td><td></td><td>Desconhecido</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/example/CodeSystem/ml-administrativegender</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a><a name=\"ml-administrativegender-male\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a><a name=\"ml-administrativegender-female\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other\">other</a><a name=\"ml-administrativegender-other\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a><a name=\"ml-administrativegender-unknown\"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>ee</b></td><td><b>Spanish (es)</b></td><td><b>Portuguese (pt)</b></td></tr><tr><td>male</td><td>Mees</td><td>Masculino</td><td>Masculino</td></tr><tr><td>female</td><td>Naine</td><td>Feminino</td><td>Feminino</td></tr><tr><td>other</td><td>Muu</td><td>Otro</td><td>Outro</td></tr><tr><td>unknown</td><td>Teadmata</td><td>Desconocido</td><td>Desconhecido</td></tr></table></div>"
   },
   "url" : "http://example.com/fhir/example/CodeSystem/ml-administrativegender",
-  "version" : "0.1.0-test",
+  "version" : "1.0.0",
   "name" : "MLAdministrativeGender",
   "title" : "Multilingual Administrative Gender",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2023-03-07T19:45:22+00:00",
-  "publisher" : "xxxYour Work Group",
+  "date" : "2023-03-07T19:58:04+00:00",
+  "publisher" : "My Organization",
   "contact" : [{
+    "name" : "My Organization",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://xxhl7.org/Special/committees/[something]"
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
     }]
   }],
   "description" : "Multilingual Administrative Gender",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "001"
+      "code" : "001",
+      "display" : "World"
     }]
   }],
   "content" : "supplement",
@@ -80,7 +94,7 @@
       "value" : "Desconhecido"
     },
     {
-      "language" : "e",
+      "language" : "es",
       "value" : "Desconocido"
     },
     {
