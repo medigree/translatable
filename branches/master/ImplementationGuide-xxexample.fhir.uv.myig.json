@@ -11,7 +11,7 @@
   "title" : "xxYour User Friendly Name for MyIG Here",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-07T19:14:06+00:00",
+  "date" : "2023-03-07T19:41:20+00:00",
   "publisher" : "xxxYour Work Group",
   "contact" : [{
     "telecom" : [{
@@ -611,6 +611,37 @@
         "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ml-administrativegender"
+      },
+      "name" : "Multilingual Administrative Gender",
+      "description" : "Multilingual Administrative Gender"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/PTPatient"
+      }
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ml-administrativegendervs"
+      },
+      "name" : "Multilingual Administrative Gender",
+      "description" : "Multilingual Administrative Gender"
     }],
     "page" : {
       "extension" : [{

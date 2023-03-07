@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "xxYour User Friendly Name for MyIG Here"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-07T19:14:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-07T19:41:20+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "xxxYour Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -518,6 +518,38 @@
          fhir:value [ fhir:v "true" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/CodeSystem/ml-administrativegender> ;
+         fhir:reference [ fhir:v "CodeSystem/ml-administrativegender" ]
+       ] ;
+       fhir:name [ fhir:v "Multilingual Administrative Gender" ] ;
+       fhir:description [ fhir:v "Multilingual Administrative Gender" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/PTPatient> ;
+         fhir:reference [ fhir:v "StructureDefinition/PTPatient" ]
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/ValueSet/ml-administrativegendervs> ;
+         fhir:reference [ fhir:v "ValueSet/ml-administrativegendervs" ]
+       ] ;
+       fhir:name [ fhir:v "Multilingual Administrative Gender" ] ;
+       fhir:description [ fhir:v "Multilingual Administrative Gender" ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
