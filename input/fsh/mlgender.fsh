@@ -10,16 +10,22 @@ Description: "Multilingual Administrative Gender"
   * ^designation[+].language = #pt
   * ^designation[=].value = "Masculino"
   * ^designation[+].language = #es
-  * ^designation[=].value = "Desconocido"
+  * ^designation[=].value = "Masculino"
 * #female
   * ^designation[+].language = #pt
+  * ^designation[=].value = "Feminino"
+  * ^designation[+].language = #es
   * ^designation[=].value = "Feminino"
 * #other
   * ^designation[+].language = #pt
   * ^designation[=].value = "Outro"
+  * ^designation[+].language = #es
+  * ^designation[=].value = "Otro"
 * #unknown
   * ^designation[+].language = #pt
   * ^designation[=].value = "Desconhecido"
+  * ^designation[+].language = #es
+  * ^designation[=].value = "Desconocido"
 
 
 ValueSet: MLAdministrativeGenderVS
