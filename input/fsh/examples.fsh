@@ -3,7 +3,7 @@ InstanceOf: EUPatient
 Title: "PT Patient"
 Description: "PT Patient"
 
-* gender = http://hl7.org/fhir/administrative-gender#male "Masculino"
+* gender = #male
 
 
 
@@ -12,4 +12,4 @@ InstanceOf: EUPatient
 Title: "EE Patient"
 Description: "EE Patient"
 
-* gender = http://hl7.org/fhir/administrative-gender#female "Naine"
+* gender = #female
