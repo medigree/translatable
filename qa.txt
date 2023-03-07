@@ -1,11 +1,11 @@
 ﻿XXYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 7, warn = 10, info = 0
+err = 7, warn = 10, info = 5
 IG Publisher Version: 1.2.40
-Generated Tue Mar 07 19:44:20 UTC 2023. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+Generated Tue Mar 07 19:45:43 UTC 2023. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
  Build Errors : 1 / 5 / 0
- /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender : 2 / 0 / 6
  /github/workspace/fsh-generated/resources/StructureDefinition-PTPatient : 2 / 3 / 1
  /github/workspace/fsh-generated/resources/ValueSet-ml-administrativegendervs : 2 / 2 / 1
  /github/workspace/input/myig : 0 / 0 / 1
@@ -19,6 +19,11 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-ml-administrativegender.json ==
 ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/ml-administrativegender'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/ml-administrativegender) does not match the URL (http://example.com/fhir/example/CodeSystem/ml-administrativegender)
+INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[0].designation[2].language: The value provided ('ee') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#ee) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[1].designation[2].language: The value provided ('ee') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#ee) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[2].designation[2].language: The value provided ('ee') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#ee) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[3].designation[1].language: The value provided ('e') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: Error from server: Access violation at address 0000000001158DD8 in module 'FHIRServer.exe'. Read of address 0000000000000028)
+INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[3].designation[2].language: The value provided ('ee') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#ee) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/ml-administrativegender vs http://example.com/fhir/example/CodeSystem/ml-administrativegender
 == fsh-generated/resources/StructureDefinition-PTPatient.json ==
 ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PTPatient'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-PTPatient.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/PTPatient) does not match the URL (http://example.com/fhir/example/StructureDefinition/PTPatient)
