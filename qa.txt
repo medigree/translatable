@@ -1,16 +1,34 @@
 ﻿XXYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 1, warn = 4, info = 0
+err = 7, warn = 10, info = 0
 IG Publisher Version: 1.2.40
-Generated Tue Mar 07 19:14:18 UTC 2023. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
- Build Errors : 0 / 4 / 0
- /github/workspace/input/myig : 1 / 0 / 1
+Generated Tue Mar 07 19:41:46 UTC 2023. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+ Build Errors : 1 / 5 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PTPatient : 2 / 3 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ml-administrativegendervs : 2 / 2 / 1
+ /github/workspace/input/myig : 0 / 0 / 1
 </table>
 == n/a ==
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/PTPatient.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PTPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-ml-administrativegender.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/ml-administrativegender'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/ml-administrativegender) does not match the URL (http://example.com/fhir/example/CodeSystem/ml-administrativegender)
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/ml-administrativegender vs http://example.com/fhir/example/CodeSystem/ml-administrativegender
+== fsh-generated/resources/StructureDefinition-PTPatient.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PTPatient'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-PTPatient.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/PTPatient) does not match the URL (http://example.com/fhir/example/StructureDefinition/PTPatient)
+WARNING: PTPatient.Patient.gender: Binding http://example.com/fhir/example/ValueSet/ml-administrativegendervs could not be expanded
+WARNING: StructureDefinition/PTPatient: StructureDefinition: Binding http://example.com/fhir/example/ValueSet/ml-administrativegendervs could not be expanded
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PTPatient'): The Implementation Guide contains no examples for this profile
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-PTPatient: URL Mismatch http://xxsomewhere.org/fhir/myig/StructureDefinition/PTPatient vs http://example.com/fhir/example/StructureDefinition/PTPatient
+== fsh-generated/resources/ValueSet-ml-administrativegendervs.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/ml-administrativegendervs'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-ml-administrativegendervs.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/ml-administrativegendervs) does not match the URL (http://example.com/fhir/example/ValueSet/ml-administrativegendervs)
+WARNING: ValueSet/ml-administrativegendervs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'ml-administrativegendervs'): Error from server: Unable to provide support for code system http://example.com/fhir/example/CodeSystem/ml-administrativegender
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-ml-administrativegendervs: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/ml-administrativegendervs vs http://example.com/fhir/example/ValueSet/ml-administrativegendervs
 == input/myig.xml ==
-ERROR: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
