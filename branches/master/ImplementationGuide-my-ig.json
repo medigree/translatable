@@ -625,7 +625,8 @@
       "reference" : {
         "reference" : "Patient/EEPatient"
       },
-      "name" : "EEPatient",
+      "name" : "EE Patient",
+      "description" : "EE Patient",
       "exampleCanonical" : "http://example.com/fhir/example/StructureDefinition/EUPatient"
     },
     {
@@ -636,7 +637,8 @@
       "reference" : {
         "reference" : "Patient/PTPatient"
       },
-      "name" : "PTPatient",
+      "name" : "PT Patient",
+      "description" : "PT Patient",
       "exampleCanonical" : "http://example.com/fhir/example/StructureDefinition/EUPatient"
     }],
     "page" : {

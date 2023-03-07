@@ -539,7 +539,8 @@
          fhir:link <http://example.com/fhir/example/Patient/EEPatient> ;
          fhir:reference [ fhir:v "Patient/EEPatient" ]
        ] ;
-       fhir:name [ fhir:v "EEPatient" ] ;
+       fhir:name [ fhir:v "EE Patient" ] ;
+       fhir:description [ fhir:v "EE Patient" ] ;
        fhir:example [
          fhir:v "http://example.com/fhir/example/StructureDefinition/EUPatient"^^xsd:anyURI ;
          fhir:link <http://example.com/fhir/example/StructureDefinition/EUPatient>
@@ -553,7 +554,8 @@
          fhir:link <http://example.com/fhir/example/Patient/PTPatient> ;
          fhir:reference [ fhir:v "Patient/PTPatient" ]
        ] ;
-       fhir:name [ fhir:v "PTPatient" ] ;
+       fhir:name [ fhir:v "PT Patient" ] ;
+       fhir:description [ fhir:v "PT Patient" ] ;
        fhir:example [
          fhir:v "http://example.com/fhir/example/StructureDefinition/EUPatient"^^xsd:anyURI ;
          fhir:link <http://example.com/fhir/example/StructureDefinition/EUPatient>
