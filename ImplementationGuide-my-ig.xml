@@ -476,7 +476,8 @@
       <reference>
         <reference value="Patient/EEPatient"/>
       </reference>
-      <name value="EEPatient"/>
+      <name value="EE Patient"/>
+      <description value="EE Patient"/>
       <exampleCanonical value="http://example.com/fhir/example/StructureDefinition/EUPatient"/>
     </resource>
     <resource>
@@ -486,7 +487,8 @@
       <reference>
         <reference value="Patient/PTPatient"/>
       </reference>
-      <name value="PTPatient"/>
+      <name value="PT Patient"/>
+      <description value="PT Patient"/>
       <exampleCanonical value="http://example.com/fhir/example/StructureDefinition/EUPatient"/>
     </resource>
     <page>
