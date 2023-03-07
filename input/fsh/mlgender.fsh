@@ -30,7 +30,7 @@ Description: "Multilingual Administrative Gender"
 * #unknown
   * ^designation[+].language = #pt
   * ^designation[=].value = "Desconhecido"
-  * ^designation[+].language = #e
+  * ^designation[+].language = #es
   * ^designation[=].value = "Desconocido"
   * ^designation[+].language = #ee
   * ^designation[=].value = "Teadmata"
