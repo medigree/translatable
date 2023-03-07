@@ -41,7 +41,7 @@
   }],
   "packageId" : "my-ig",
   "license" : "CC0-1.0",
-  "fhirVersion" : ["4.0.1"],
+  "fhirVersion" : ["4.3.0"],
   "dependsOn" : [{
     "id" : "hl7tx",
     "extension" : [{
@@ -642,27 +642,15 @@
       "exampleCanonical" : "http://example.com/fhir/example/StructureDefinition/EUPatient"
     }],
     "page" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-        "valueUrl" : "toc.html"
-      }],
       "nameUrl" : "toc.html",
       "title" : "Table of Contents",
       "generation" : "html",
       "page" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "index.html"
-        }],
         "nameUrl" : "index.html",
         "title" : "Home",
         "generation" : "html"
       },
       {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "changes.html"
-        }],
         "nameUrl" : "changes.html",
         "title" : "Changes",
         "generation" : "html"

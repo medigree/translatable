@@ -3,14 +3,18 @@
   "id" : "ml-administrativegendervs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4B/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div>"
   },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
+    "valueCanonical" : "http://example.com/fhir/example/CodeSystem/ml-administrativegender"
+  }],
   "url" : "http://example.com/fhir/example/ValueSet/ml-administrativegendervs",
   "version" : "1.0.0",
   "name" : "MLAdministrativeGenderVS",
   "title" : "Multilingual Administrative Gender",
   "status" : "active",
-  "date" : "2023-03-07T20:20:40+00:00",
+  "date" : "2023-03-07T21:49:30+00:00",
   "publisher" : "My Organization",
   "contact" : [{
     "name" : "My Organization",

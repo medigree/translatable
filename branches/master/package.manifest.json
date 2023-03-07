@@ -1,6 +1,6 @@
 {
   "version" : "1.0.0",
-  "fhirVersion" : ["4.0.1"],
-  "date" : "20230307201939",
+  "fhirVersion" : ["4.3.0"],
+  "date" : "20230307214838",
   "name" : "my-ig"
 }
