@@ -3,7 +3,7 @@ InstanceOf: EUPatient
 Title: "PT Patient"
 Description: "PT Patient"
 
-* gender = #male "Masculino"
+* gender = http://hl7.org/fhir/administrative-gender#male "Masculino"
 
 
 
