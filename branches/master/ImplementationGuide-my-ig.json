@@ -596,13 +596,49 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/FIPatient"
+      },
+      "name" : "FI Patient",
+      "description" : "Finnish patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/administrativegender-explicit-vs"
+      },
+      "name" : "Multilingual Administrative Gender Explicit",
+      "description" : "Multilingual Administrative Gender with explicit designations in the value set; based on CS supplement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/administrativegender-nosupplement-vs"
+      },
+      "name" : "Finnish Administrative Gender",
+      "description" : "Finnish Administrative Gender with explicit designations in the value set and without CS supplement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
         "reference" : "ValueSet/ml-administrativegendervs"
       },
       "name" : "Multilingual Administrative Gender",
-      "description" : "Multilingual Administrative Gender",
+      "description" : "Multilingual Administrative Gender includes all codes from CS (with supplement)",
       "exampleBoolean" : false
     },
     {
@@ -614,7 +650,7 @@
         "reference" : "CodeSystem/ml-administrativegender"
       },
       "name" : "Multilingual Administrative Gender",
-      "description" : "Multilingual Administrative Gender",
+      "description" : "Multilingual Administrative Gender - supplements HL7 Administrative Gender",
       "exampleBoolean" : false
     },
     {
@@ -628,6 +664,18 @@
       "name" : "EE Patient",
       "description" : "EE Patient",
       "exampleCanonical" : "http://example.com/fhir/example/StructureDefinition/EUPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/FIPatient"
+      },
+      "name" : "FI Patient",
+      "description" : "FI Patient",
+      "exampleCanonical" : "http://example.com/fhir/example/StructureDefinition/FIPatient"
     },
     {
       "extension" : [{

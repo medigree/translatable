@@ -9,6 +9,10 @@
       {
         "url": "http://example.com/fhir/example/StructureDefinition/EUPatient",
         "title": "EU Patient"
+      },
+      {
+        "url": "http://example.com/fhir/example/StructureDefinition/FIPatient",
+        "title": "FI Patient"
       }
     ]
   },
