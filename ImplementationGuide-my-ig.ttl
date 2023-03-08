@@ -509,6 +509,42 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.com/fhir/example/StructureDefinition/FIPatient> ;
+         fhir:reference [ fhir:v "StructureDefinition/FIPatient" ]
+       ] ;
+       fhir:name [ fhir:v "FI Patient" ] ;
+       fhir:description [ fhir:v "Finnish patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.com/fhir/example/ValueSet/administrativegender-explicit-vs> ;
+         fhir:reference [ fhir:v "ValueSet/administrativegender-explicit-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Multilingual Administrative Gender Explicit" ] ;
+       fhir:description [ fhir:v "Multilingual Administrative Gender with explicit designations in the value set; based on CS supplement" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.com/fhir/example/ValueSet/administrativegender-nosupplement-vs> ;
+         fhir:reference [ fhir:v "ValueSet/administrativegender-nosupplement-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Finnish Administrative Gender" ] ;
+       fhir:description [ fhir:v "Finnish Administrative Gender with explicit designations in the value set and without CS supplement" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
@@ -516,7 +552,7 @@
          fhir:reference [ fhir:v "ValueSet/ml-administrativegendervs" ]
        ] ;
        fhir:name [ fhir:v "Multilingual Administrative Gender" ] ;
-       fhir:description [ fhir:v "Multilingual Administrative Gender" ] ;
+       fhir:description [ fhir:v "Multilingual Administrative Gender includes all codes from CS (with supplement)" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -528,7 +564,7 @@
          fhir:reference [ fhir:v "CodeSystem/ml-administrativegender" ]
        ] ;
        fhir:name [ fhir:v "Multilingual Administrative Gender" ] ;
-       fhir:description [ fhir:v "Multilingual Administrative Gender" ] ;
+       fhir:description [ fhir:v "Multilingual Administrative Gender - supplements HL7 Administrative Gender" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -544,6 +580,21 @@
        fhir:example [
          fhir:v "http://example.com/fhir/example/StructureDefinition/EUPatient"^^xsd:anyURI ;
          fhir:link <http://example.com/fhir/example/StructureDefinition/EUPatient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.com/fhir/example/Patient/FIPatient> ;
+         fhir:reference [ fhir:v "Patient/FIPatient" ]
+       ] ;
+       fhir:name [ fhir:v "FI Patient" ] ;
+       fhir:description [ fhir:v "FI Patient" ] ;
+       fhir:example [
+         fhir:v "http://example.com/fhir/example/StructureDefinition/FIPatient"^^xsd:anyURI ;
+         fhir:link <http://example.com/fhir/example/StructureDefinition/FIPatient>
        ]
      ] [
        fhir:extension ( [

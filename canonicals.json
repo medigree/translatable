@@ -21,6 +21,27 @@
     "name" : "EUPatient"
   },
   {
+    "id" : "FIPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/FIPatient",
+    "version" : "1.0.0",
+    "name" : "FIPatient"
+  },
+  {
+    "id" : "administrativegender-explicit-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/administrativegender-explicit-vs",
+    "version" : "1.0.0",
+    "name" : "AdministrativeGenderExplicitVS"
+  },
+  {
+    "id" : "administrativegender-nosupplement-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/administrativegender-nosupplement-vs",
+    "version" : "1.0.0",
+    "name" : "AdministrativeGenderNoSupplementVS"
+  },
+  {
     "id" : "ml-administrativegendervs",
     "type" : "ValueSet",
     "url" : "http://example.com/fhir/example/ValueSet/ml-administrativegendervs",

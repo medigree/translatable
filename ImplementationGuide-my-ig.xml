@@ -449,13 +449,46 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/FIPatient"/>
+      </reference>
+      <name value="FI Patient"/>
+      <description value="Finnish patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/administrativegender-explicit-vs"/>
+      </reference>
+      <name value="Multilingual Administrative Gender Explicit"/>
+      <description value="Multilingual Administrative Gender with explicit designations in the value set; based on CS supplement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/administrativegender-nosupplement-vs"/>
+      </reference>
+      <name value="Finnish Administrative Gender"/>
+      <description value="Finnish Administrative Gender with explicit designations in the value set and without CS supplement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
         <reference value="ValueSet/ml-administrativegendervs"/>
       </reference>
       <name value="Multilingual Administrative Gender"/>
-      <description value="Multilingual Administrative Gender"/>
+      <description value="Multilingual Administrative Gender includes all codes from CS (with supplement)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -466,7 +499,7 @@
         <reference value="CodeSystem/ml-administrativegender"/>
       </reference>
       <name value="Multilingual Administrative Gender"/>
-      <description value="Multilingual Administrative Gender"/>
+      <description value="Multilingual Administrative Gender - supplements HL7 Administrative Gender"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -479,6 +512,17 @@
       <name value="EE Patient"/>
       <description value="EE Patient"/>
       <exampleCanonical value="http://example.com/fhir/example/StructureDefinition/EUPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/FIPatient"/>
+      </reference>
+      <name value="FI Patient"/>
+      <description value="FI Patient"/>
+      <exampleCanonical value="http://example.com/fhir/example/StructureDefinition/FIPatient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
