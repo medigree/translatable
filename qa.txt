@@ -1,16 +1,16 @@
 ﻿Translatable : Validation Results
 =========================================
 
-err = 0, warn = 5, info = 4
+err = 0, warn = 4, info = 4
 IG Publisher Version: 1.2.40
-Generated Tue Mar 07 21:49:57 UTC 2023. FHIR version 4.3.0 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Wed Mar 08 20:31:20 UTC 2023. FHIR version 4.3.0 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-EEPatient : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-PTPatient : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-EUPatient : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-ml-administrativegendervs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ml-administrativegendervs : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -27,4 +27,3 @@ INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[3].designati
 == fsh-generated/resources/Patient-PTPatient.json ==
 == fsh-generated/resources/StructureDefinition-EUPatient.json ==
 == fsh-generated/resources/ValueSet-ml-administrativegendervs.json ==
-WARNING: ValueSet/ml-administrativegendervs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
