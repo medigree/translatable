@@ -1,0 +1,39 @@
+﻿Translatable : Validation Results
+=========================================
+
+err = 0, warn = 4, info = 6
+IG Publisher Version: 1.3.2
+Generated Mon Mar 27 16:36:05 UTC 2023. FHIR version 4.3.0 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 0 / 4 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-ml-administrativegender : 0 / 0 / 5
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-EEPatient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-FIPatient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-PTPatient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-EUPatient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FIPatient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-administrativegender-explicit-vs : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/ValueSet-administrativegender-nosupplement-vs : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ml-administrativegendervs : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-ml-administrativegender.json ==
+INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[0].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.3.0), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#et) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[1].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.3.0), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#et) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[2].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.3.0), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#et) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: CodeSystem/ml-administrativegender: CodeSystem.concept[3].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.3.0), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#et) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+== fsh-generated/resources/ImplementationGuide-my-ig.json ==
+== fsh-generated/resources/Patient-EEPatient.json ==
+== fsh-generated/resources/Patient-FIPatient.json ==
+== fsh-generated/resources/Patient-PTPatient.json ==
+== fsh-generated/resources/StructureDefinition-EUPatient.json ==
+== fsh-generated/resources/StructureDefinition-FIPatient.json ==
+== fsh-generated/resources/ValueSet-administrativegender-explicit-vs.json ==
+INFORMATION: ValueSet/administrativegender-explicit-vs: ValueSet.compose.include[0].concept[0].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.3.0), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#et) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: ValueSet/administrativegender-explicit-vs: ValueSet.compose.include[0].concept[1].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.3.0), and a code is recommended to come from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: The code provided (urn:ietf:bcp:47#et) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+== fsh-generated/resources/ValueSet-administrativegender-nosupplement-vs.json ==
+== fsh-generated/resources/ValueSet-ml-administrativegendervs.json ==

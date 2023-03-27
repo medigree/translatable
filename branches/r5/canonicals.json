@@ -1,0 +1,51 @@
+[
+  {
+    "id" : "ml-administrativegender",
+    "type" : "CodeSystem",
+    "url" : "http://example.com/fhir/example/CodeSystem/ml-administrativegender",
+    "version" : "1.0.0",
+    "name" : "MLAdministrativeGender"
+  },
+  {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example/ImplementationGuide/my-ig",
+    "version" : "1.0.0",
+    "name" : "Translatable"
+  },
+  {
+    "id" : "EUPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/EUPatient",
+    "version" : "1.0.0",
+    "name" : "EUPatient"
+  },
+  {
+    "id" : "FIPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/FIPatient",
+    "version" : "1.0.0",
+    "name" : "FIPatient"
+  },
+  {
+    "id" : "administrativegender-explicit-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/administrativegender-explicit-vs",
+    "version" : "1.0.0",
+    "name" : "AdministrativeGenderExplicitVS"
+  },
+  {
+    "id" : "administrativegender-nosupplement-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/administrativegender-nosupplement-vs",
+    "version" : "1.0.0",
+    "name" : "AdministrativeGenderNoSupplementVS"
+  },
+  {
+    "id" : "ml-administrativegendervs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/ml-administrativegendervs",
+    "version" : "1.0.0",
+    "name" : "MLAdministrativeGenderVS"
+  }
+]
